@@ -76,3 +76,14 @@ body {
     list-style-type: disc;
     padding-left: 20px;
   }
+  pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+  }
+
+  code {
+    font-family: Consolas, monospace;
+  }
