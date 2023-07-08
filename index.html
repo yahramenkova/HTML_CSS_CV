@@ -50,6 +50,55 @@
       <p>I am open to learning and eager to learn new things. I am ready to invest time and effort in studying various tools and technologies related to the creative aspects of IT. I am also a real communicator and easily find a common language with other people. I am ready to work in a team, exchange ideas and learn from colleagues.</p>
       <p>My goal in the IT industry is to develop in the field of creative directions and apply my skills in creating unique and attractive visual solutions. I am ready to contribute to the development of innovative projects and collaborate with talented professionals to create excellent products and improve the user experience.</p>
   </section>
+  <section id="skills">
+    <h2>Skills:</h2>
+    <ul>
+        <li>Programming Languages: C#, JavaScript</li>
+        <li>SQL Server: Studied SQL Server and its basics, including database creation, SQL query writing, data management and query optimization</li>
+        <li>VS Code, Visual Studio</li>
+        <li>Version Control Systems: Git</li>
+        <li>Frameworks: .NET Framework</li>
+    </ul>
+</section>
+<section id="code">
+    <h2>Code Examples:</h2>
+    <pre><code>//Пример кода на C# (вычисление факториала числа):
+using System;
+
+class Program
+{
+static int Factorial(int n)
+{
+if (n == 0)
+return 1;
+else
+return n * Factorial(n - 1);
+}
+
+static void Main()
+{
+int num = 5;
+int result = Factorial(num);
+Console.WriteLine("Факториал числа " + num + " равен " + result);
+}
+}</code></pre>
+<pre><code>//Пример кода на JavaScript(cортировка пузырьком (Bubble Sort)):
+function bubbleSort(array) {
+const length = array.length;
+for (let i = 0; i &lt; length - 1; i++) {
+for (let j = 0; j &lt; length - 1 - i; j++) {
+if (array[j] > array[j + 1]) {
+// Обмен значениями
+[array[j], array[j + 1]] = [array[j + 1], array[j]];
+}
+}
+}
+return array;
+}
+
+const numbers = [5, 3, 8, 4, 2];
+console.log(bubbleSort(numbers)); // [2, 3, 4, 5, 8]</code></pre>
+</section>
       </div>
      </main>
     </body>   
