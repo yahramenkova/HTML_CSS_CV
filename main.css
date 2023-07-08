@@ -20,3 +20,15 @@ body {
     text-decoration: none;
     margin: 0 10px;
   }  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left {
+    width: 30%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
